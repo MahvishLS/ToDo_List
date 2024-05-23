@@ -68,7 +68,7 @@
         })
         .catch(error => {
           console.error('Error:', error);
-          // Handle error, such as displaying an error message to the user
+          
         });
     };
 
@@ -81,7 +81,7 @@
       }
     });
 
-    // Add event listener to handle form submission
+    // form submission
     document.getElementById('editTaskForm').addEventListener('submit', function (event) {
       event.preventDefault();
       const formData = new FormData(event.target);
